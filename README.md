@@ -6,7 +6,7 @@ This is a simple product management system built with Java, Hibernate, Spring Bo
 
 Before you begin, ensure you have met the following requirements:
 
-* You have installed the latest version of [Java JDK 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html) and [Maven](https://maven.apache.org/download.cgi).
+* You have installed the latest version of [Java JDK 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html), [Maven](https://maven.apache.org/download.cgi), [MySQL Server](https://dev.mysql.com/downloads/mysql/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
 * You have a Windows machine. This guide is tailored for Windows users.
 * You have read the [Spring Boot documentation](https://spring.io/projects/spring-boot).
 
@@ -15,8 +15,9 @@ Before you begin, ensure you have met the following requirements:
 To set up the Product Management System, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Navigate to the root directory of the project in your terminal.
-3. Run `mvn clean install` to build the project and install dependencies.
+2. Install and set up the MySQL server and MySQL Workbench. Create a database named `pms` and a user with the username `root` and password `admin`. Hostname should be `localhost` and port `3306`.
+3. Navigate to the root directory of the project in your terminal.
+4. Run `mvn clean install` to build the project and install dependencies.
 
 ## Running the Product Management System
 
